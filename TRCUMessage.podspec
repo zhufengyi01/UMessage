@@ -1,10 +1,11 @@
 Pod::Spec.new do |s|
 
-  s.name         = "UMessage"
+  s.name         = "TRCUMessage"
   s.version      = "1.0.0"
   s.summary      = "友盟消息推送"
   s.description  = <<-DESC
                    友盟消息推送
+                   泰然城版本
                    DESC
   s.homepage     = "http://dev.umeng.com/push/ios/integration"
   s.license      = "MIT"
@@ -14,9 +15,9 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.7"
   s.source       = { :git => "git@github.com:zhufengyi01/UMessage.git"}
   s.source_files  =  "UMessage.h"
-  s.frameworks = "UserNotifications.framework"
-  s.libraries = 'bz'
-  s.vendored_libraries = 'libUMessage_Sdk_1.5.0a'
+  #s.frameworks = "UserNotifications.framework"
+  #s.libraries = 'bz'
+  #s.vendored_libraries = 'libUMessage_Sdk_1.5.0a'
     
 end
 
